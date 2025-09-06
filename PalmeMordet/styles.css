@@ -1,0 +1,27 @@
+body {
+    max-width: 1000px;
+    margin:auto;
+    background-color:darkgrey;
+    font-size: larger;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
+
+.Cit{
+    padding: 0 50px 0 50px ;
+    font-style:italic;
+}
+
+.bild {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bildtext {
+    font-size: smaller;
+    color: black;
+}
