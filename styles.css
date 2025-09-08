@@ -4,3 +4,27 @@ body {
     background-color:darkgrey;
     font-size: larger;
 }
+
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 3px groove black;
+    border-radius: 10px;
+}
+
+.image-container .caption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.image-container a {
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
