@@ -1,12 +1,35 @@
 body {
     max-width: 1000px;
-    margin:auto;
-    background-color:darkgrey;
+    margin: auto;
+    background-color: #2e2e2e; /* mörkare grå för bättre kontrast */
+    color: #f0f0f0;            /* ljus text för bättre läsbarhet */
     font-size: larger;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+a {
+    color: #66ccff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2 {
+    color: #4ce7ffb0;
+}
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .map-link {
-    color: blue;
+    color: rgba(0, 255, 8, 0.67);
     text-decoration: none;
 }
 
@@ -21,7 +44,7 @@ body {
 }
 
 .image-container img {
-    max-width: 100%;
+    max-width: 600px;
     height: auto;
     border: 3px groove black;
     border-radius: 10px;
@@ -41,7 +64,7 @@ body {
 
 .news-box {
     border: 2px solid black;
-    background-color: lightgrey;
+    font-style: italic;
     padding: 10px;
     margin: 20px 0;
     text-align: justify;
