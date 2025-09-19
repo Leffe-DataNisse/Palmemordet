@@ -69,3 +69,11 @@ dd {
     margin: 20px 0;
     text-align: justify;
 }
+.quote {
+    border-left: 4px solid #4ce7ffb0;
+    margin: 20px 0;
+    padding-left: 15px;
+    font-style: italic;
+    text-align: justify;
+    color: #d0d0d0;
+}
