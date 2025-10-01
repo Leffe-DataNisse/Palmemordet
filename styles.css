@@ -90,3 +90,8 @@ dd {
    border: 1px black;
     color: #000;
 }
+
+.tip-no {
+    text-align:right;
+    color:chocolate;
+}
